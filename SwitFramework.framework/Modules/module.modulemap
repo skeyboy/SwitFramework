@@ -1,0 +1,11 @@
+framework module SwitFramework {
+  umbrella header "SwitFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module SwitFramework.Swift {
+    header "SwitFramework-Swift.h"
+    requires objc
+}
