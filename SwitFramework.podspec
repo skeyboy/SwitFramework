@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "11.0"
   s.static_framework = true
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
-  s.source   = { :git => "SwitFramework", :tag => s.version }
+  s.source   = { :git => "git@github.com:skeyboy/SwitFramework.git", :tag => s.version }
 s.exclude_files = "SwitFramework/**/*.{swift}"
   s.vendored_frameworks = 'SwitFramework.framework'
   s.frameworks = 'UIKit'
